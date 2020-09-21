@@ -14,6 +14,9 @@ p {
   height: 100%;
 }
 
+/*INDEX*/
+/*
+*/
 .header {
   width: 100%;
   height: 900px;
@@ -26,7 +29,7 @@ p {
 
 .menu {
   width: 100%;
-  height: 10%;
+  height: 6%;
   margin: auto;
   text-align: center;
   margin-top: 20px;
@@ -39,13 +42,23 @@ p {
   font-size: 25px;
   font-family: "Cormorant Garamond", serif;
 }
+.menu_link:active {
+  color: rgb(206, 59, 103);
+}
 .menu_link:hover {
   color: rgb(206, 59, 103);
+}
+
+.moving_line {
+  top: 5%;
+  height: 30px;
+  width: 100%;
+  background-color: rgb(255, 226, 226);
 }
 .landing_logo {
   z-index: 2;
   color: #383838;
-  font-size: 70px;
+  font-size: 60px;
   text-align: center;
   font-family: "Cormorant Garamond", serif;
 }
@@ -97,6 +110,7 @@ p {
 .subtitle {
   text-align: center;
   color: rgb(206, 59, 103);
+  font-size: 24px;
 }
 .textblock {
   width: 77%;
@@ -111,13 +125,13 @@ p {
 
 .photo {
   margin-top: 5%;
-  background-color: rgb(231, 231, 231);
+  background-color: rgb(235, 235, 235);
   display: flex;
   flex-basis: 100%;
   justify-content: space-between;
   -webkit-box-shadow: 0px 4px 14px 0px rgba(50, 50, 50, 0.32);
--moz-box-shadow:    0px 4px 14px 0px rgba(50, 50, 50, 0.32);
-box-shadow:         0px 4px 14px 0px rgba(50, 50, 50, 0.32);
+  -moz-box-shadow: 0px 4px 14px 0px rgba(50, 50, 50, 0.32);
+  box-shadow: 0px 4px 14px 0px rgba(50, 50, 50, 0.32);
 }
 .img_title {
   font-size: 24px;
@@ -131,6 +145,10 @@ box-shadow:         0px 4px 14px 0px rgba(50, 50, 50, 0.32);
 .red {
   color: rgb(206, 59, 103);
   font-size: 24px;
+}
+.white {
+  color: rgb(255, 255, 255);
+  font-size: 21px;
 }
 .img_description {
   margin-left: 5%;
@@ -147,19 +165,25 @@ box-shadow:         0px 4px 14px 0px rgba(50, 50, 50, 0.32);
 .info-list {
   width: 100%;
   background-color: #fff0f0;
-  text-align:  left;
+  text-align: left;
   padding-left: 3%;
   -webkit-box-shadow: 4px 0px 14px 0px rgba(50, 50, 50, 0.32);
-  -moz-box-shadow:    4px 0px 14px 0px rgba(50, 50, 50, 0.32);
-  box-shadow:         4px 0px 14px 0px rgba(50, 50, 50, 0.32);
+  -moz-box-shadow: 4px 0px 14px 0px rgba(50, 50, 50, 0.32);
+  box-shadow: 4px 0px 14px 0px rgba(50, 50, 50, 0.32);
 }
 
 .footer {
   width: 100%;
   display: flex;
-  background-color: #383838;
+  justify-content: space-between;
+  background-color: #838383;
+  text-align: center;
 }
-
+.footer_contacts {
+  margin: auto;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
 
 #inf_cnt_1 {
   background-color: #ffe3df;
@@ -170,10 +194,217 @@ box-shadow:         0px 4px 14px 0px rgba(50, 50, 50, 0.32);
 #inf_cnt_3 {
   background-color: #fff0f0;
 }
+#main_landing_logo {
+  font-size: 70px;
+}
 
+/*HISTORY*/
+/*
+*/
+.header_text {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  font-size: 20px;
+}
+.header_info {
+  width: 70%;
+  margin: auto;
+  margin-top: 4%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.541);
+}
+.img_title_center {
+  text-align: center;
+  font-size: 24px;
+}
+.last_actions {
+  margin-top: 5%;
+  background-color: rgb(236, 236, 236);
+  -webkit-box-shadow: 4px 0px 14px 0px rgba(50, 50, 50, 0.32);
+  -moz-box-shadow: 4px 0px 14px 0px rgba(50, 50, 50, 0.32);
+  box-shadow: 4px 0px 14px 0px rgba(50, 50, 50, 0.32);
+}
+.table {
+  border: 1px solid rgb(143, 143, 143);
+}
 
+#hstr1 {
+  height: 500px;
+  width: 70%;
+  float: left;
+  margin: 30px;
+  margin-left: 10%;
+}
+#hstr2 {
+  width: 70%;
+  margin: 30px;
+  float: right;
+}
+#textblock_fullwidth {
+  width: 80%;
+}
+#img_title_right {
+  text-align: right;
+  margin-right: 5%;
+}
 
+/*CULTURE*/
+/*
+*/
+.blockquote {
+  font-size: 22px;
+  padding: 20px;
+  background-color: rgb(245, 245, 245);
+  -webkit-box-shadow: 4px 0px 14px 0px rgba(50, 50, 50, 0.32);
+  -moz-box-shadow: 4px 0px 14px 0px rgba(50, 50, 50, 0.32);
+  box-shadow: 4px 0px 14px 0px rgba(50, 50, 50, 0.32);
+}
+.cult_list {
+  margin-left: 5%;
+  font-size: 20px;
+}
+.marker {
+  left: 0;
+  width: max-content;
+  padding: 2px;
+  padding-right: 5%;
+  background-color: rgb(255, 210, 210);
+}
+#photo_3 {
+  width: 50%;
+}
+#photo_4 {
+  height: 500px;
+  float: left;
+  margin: 20px;
+}
+#left_title {
+  margin-left: 5%;
+}
 
+/*GEOGRAPHIC*/
+/*
+*/
+.map {
+  width: 80%;
+  margin: auto;
+}
+.table_titles {
+  color: rgb(206, 59, 103);
+  font-size: 20px;
+}
+.table_data {
+  font-size: 19px;
+  font-style: normal;
+  padding: 4px;
+}
+#map_block {
+  background-color: #fff;
+  margin-bottom: 5%;
+}
+#full_text {
+  padding: 7%;
+  width: 90%;
+}
+#geo_img {
+  float: right;
+  right: 0;
+  padding: 20px;
+  width: 60%;
+}
+#geo_block {
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
 
+/*FEEDBACK*/
+/*
+*/
+.input {
+  background: #f8f8f8;
+  box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+  border-radius: 5px;
+  border: none;
+  width: 70%;
+  padding: 18px 20px;
+  padding-left: 50px;
+  align-self: center;
+  margin: auto;
+  font-size: 14px;
+  line-height: 28px;
+}
+.input-name {
+  margin-bottom: 17px;
+}
+.input-phone {
+  margin-bottom: 17px;
+}
 
+.form-button {
+  width: 50%;
+  margin: auto;
+}
 
+.contacts-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contacts-form {
+  background: #ffffff;
+  padding-top: 30px;
+  margin-left: 5%;
+}
+.contacts-text {
+  flex-basis: 50%;
+  padding-left: 20px;
+  padding-top: 30px;
+  background-color: #eaeaea;
+  justify-content: space-between;
+}
+.contacts-data {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 42px;
+}
+.contacts-phone,
+.contacts-mail {
+  margin-bottom: 33px;
+}
+.contacts-social {
+  flex-basis: 100%;
+}
+.contacts-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.contacts-link {
+  text-decoration: none;
+  color: inherit;
+  font-size: 23px;
+  margin-right: 37px;
+}
+.contacts-link:hover {
+  text-decoration: underline;
+}
+.contacts-policy {
+  display: inline-block;
+  margin-top: 25px;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #303030;
+}
+#feedback_form {
+  width: 90%;
+}
+#inputs_title {
+  font-size: 23px;
+  text-align: center;
+}
