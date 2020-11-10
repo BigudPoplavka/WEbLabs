@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/animate.css" />
+    <link rel="stylesheet" href="animate.css" />
     <link rel="stylesheet" href="style.css">
     <title>Wellcome!</title>
 </head>
@@ -16,15 +16,24 @@
             <div class="brand">
                 <img src="IMG/logo.png" alt="BRAND" class="logo">
                 <form action="" class="search_form">
-                    <select name="" id="" class="search_list">
-                        <option value=""></option>
+                    <select name="Browse" id="" class="search_list">
+                        <option value="">Browse</option>
                         <option value=""></option>
                         <option value=""></option>
                     </select>
                     <input type="text" class="search_field">
+                    <button class="search_btn">
+                        <img src="IMG/search_icon.png" alt="">
+                    </button>
                 </form>
-                <button class="shop"></button>
-                <select name="" id="" class="my_account">My account</select>
+                <div class="user_actions">
+                    <button class="shop">
+                        <img src="IMG/shop_icon.png" alt="">
+                    </button>
+                    <select name="" id="" class="my_account">
+                        <option>My account</option>
+                    </select>
+                </div>
             </div>
             <hr style="opacity: 50%;">
             <div class="menu">
@@ -32,14 +41,14 @@
                 <a href="" class="menu_link">MAN</a>
                 <a href="" class="menu_link">WOMAN</a>
                 <a href="" class="menu_link">KIDS</a>
-                <a href="" class="menu_link">ACCOSERIESE</a>
+                <a href="" class="menu_link">ACCESORIES</a>
                 <a href="" class="menu_link">FEATURED</a>
                 <a href="" class="menu_link">HOT DEALS</a>
             </div>
         </div>
         <div class="landing">
             <img src="IMG/landing.png" alt="" class="landing_bg">
-            <h1 class="landing_text" id="title_text">
+            <h1 class="landing_text wow fadeInLeft" data-wow-delay="0.5s" id="title_text">
                 <div class="ver_line"></div>
                 <span style="margin-left: 20px;">
                     THE BRAND <br>
@@ -51,22 +60,286 @@
 
         </div>
     </header>
-    <!--header-->
+    <!--/header-->
     <div class="container">
         <div class="examples">
-            <div class="col_1">
-                div.
+            <div class="col">
+                <div class="part" id="ex1">
+                    <div class="description">
+                        <h4>HOT DEAL</h4>
+                        <h3>
+                            <red style="color: #ff6f76;">FOR MEN</red>
+                        </h3>
+                    </div>
+                </div>
+                <div class="part" id="ex2">
+                    <div class="description">
+                        <h3>LUXIROUS & TRANDY</h3>
+                        <h3>
+                            <red style="color: #ff6f76;">ACCESORIES</red>
+                        </h3>
+                    </div>
+                </div>
             </div>
-            <div class="col_2"></div>
-
+            <div class="col">
+                <div class="part" id="ex3">
+                    <div class="description">
+                        <h3>30% OFFER</h3>
+                        <h3>
+                            <red style="color: #ff6f76;">WOMEN</red>
+                        </h3>
+                    </div>
+                </div>
+                <div class="part" id="ex4">
+                    <div class="description">
+                        <h3>NEW ARRIVALS</h3>
+                        <h3>
+                            <red style="color: #ff6f76;">FOR KIDS</red>
+                        </h3>
+                    </div>
+                </div>
+            </div>
         </div>
+        <br>
         <div class="fetured_items">
-
+            <h2 class="dark" style="text-align: center;">Fetured Items</h3>
+                <h6 style="text-align: center; color:  #a1a1a1;">Shop for items based on what we featured in this week
+                </h6>
+                <br>
+                <div class="line">
+                    <div class="pair">
+                        <div class="thing_block">
+                            <img src="IMG/thing1.png" alt="" class="thing">
+                            <h5 class="th_descr"><br>MANGO PEOPLE T-SHIRT</h5>
+                            <h4 class="th_descr">
+                                <red style="color: #ff6f76;">$52.00</red>
+                            </h4>
+                        </div>
+                        <div class="thing_block">
+                            <img src="IMG/thing2.png" alt="" class="thing">
+                            <h5 class="th_descr"><br>MANGO PEOPLE T-SHIRT</h5>
+                            <h4 class="th_descr">
+                                <red style="color: #ff6f76;">$52.00</red>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="pair">
+                        <div class="thing_block">
+                            <img src="IMG/thing3.png" alt="" class="thing">
+                            <h5 class="th_descr"><br>MANGO PEOPLE T-SHIRT</h5>
+                            <h4 class="th_descr">
+                                <red style="color: #ff6f76;">$52.00</red>
+                            </h4>
+                        </div>
+                        <div class="thing_block">
+                            <img src="IMG/thing4.png" alt="" class="thing">
+                            <h5 class="th_descr"><br>MANGO PEOPLE T-SHIRT</h5>
+                            <h4 class="th_descr">
+                                <red style="color: #ff6f76;">$52.00</red>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <!--/line1-->
+                <br><br>
+                <div class="line">
+                    <div class="pair">
+                        <div class="thing_block">
+                            <img src="IMG/thing5.png" alt="" class="thing">
+                            <h5 class="th_descr"><br>MANGO PEOPLE T-SHIRT</h5>
+                            <h4 class="th_descr">
+                                <red style="color: #ff6f76;">$52.00</red>
+                            </h4>
+                        </div>
+                        <div class="thing_block">
+                            <img src="IMG/thing6.png" alt="" class="thing">
+                            <h5 class="th_descr"><br>MANGO PEOPLE T-SHIRT</h5>
+                            <h4 class="th_descr">
+                                <red style="color: #ff6f76;">$52.00</red>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="pair">
+                        <div class="thing_block">
+                            <img src="IMG/thing7.png" alt="" class="thing">
+                            <h5 class="th_descr"><br>MANGO PEOPLE T-SHIRT</h5>
+                            <h4 class="th_descr">
+                                <red style="color: #ff6f76;">$52.00</red>
+                            </h4>
+                        </div>
+                        <div class="thing_block">
+                            <img src="IMG/thing8.png" alt="" class="thing">
+                            <h5 class="th_descr"><br>MANGO PEOPLE T-SHIRT</h5>
+                            <h4 class="th_descr">
+                                <red style="color: #ff6f76;">$52.00</red>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <!--/line2-->
         </div>
+        <!--/featured items-->
+        <div class="btn_block">
+            <button class="button_browse">
+                Browse All Product
+                <img src="IMG/sparrow.png" alt="" id="sparrow">
+            </button>
+        </div>
+        <!-- /.button_browse -->
+        <div id="banner_title">
+            <div style="display: flex;">
+                <h1 class="light">30%
+                    <h1 class="red">OFFER</h1>
+                </h1>
+            </div>
+            <h3 class="light">FOR WOMAN</h3>
+        </div>
+        <div class="banner_offer">
+            <img src="IMG/banner_offer1.png" alt="" class="banner">
+            <div class="option_description">
+                <div class="options">
+                    <div class="option_title">
+                        <img src="IMG/opt_ico1.png" alt="" class="optinon_ico">
+                        <h3 id="light">Free Delivery</h3>
+                        <br>
+                    </div>
+                    <h5 id="h_light">Worldwide delivery on all. Authorit tively morph next-generation innov tion
+                        with
+                        extensive
+                        models.
+                    </h5>
+                </div>
+                <div class="options">
+                    <div class="option_title">
+                        <img src="IMG/opt_ico2.png" alt="" class="optinon_ico">
+                        <h3 id="light">Sales & Discounts</h3>
+                        <br>
+                    </div>
+                    <h5 id="h_light">Worldwide delivery on all. Authorit tively morph next-generation innov tion
+                        with
+                        extensive
+                        models.
+                    </h5>
+                </div>
+                <div class="options">
+                    <div class="option_title">
+                        <img src="IMG/opt_ico3.png" alt="" class="optinon_ico">
+                        <h3 id="light">Quality assurance</h3>
+                        <br>
+                    </div>
+                    <h5 id="h_light">Worldwide delivery on all. Authorit tively morph next-generation innov tion
+                        with
+                        extensive
+                        models.
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <!-- /.banner_offer -->
+        <div class="subscribe_wrap">
+            <img src="IMG/subscribe_bg.png" alt="" class="subscr_bg">
+            <div class="comment">
+                <div class="feedback">
+                    <div style="display: flex;">
+                        <img src="IMG/avatar.png" alt="" class="avatar">
+                        <br>
+                        <div style="margin-top: 10px;">
+                            <h5>
+                                <i>“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                                    a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
+                                </i>
+                                <div style="margin-top: 30px;">
+                                    <p class="red">Bin Burhan</p>
+                                    <p>Dhaka, Bd</p>
+                                </div>
+                                <div class="lines">
+                                    <div id="line1"></div>
+                                    <div id="line2"></div>
+                                </div>
+                            </h5>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <div class="feedback">
+                    <h2 class="dark" style="text-align: center;">SUBSCRIBE</h2>
+                    <h4 class="dark" style="text-align: center;">FOR OUR NEWLETTER AND PROMOTION</h4>
+                    <br><br>
+                    <div class="input">
+                        <input type="text" id="subscr_input" placeholder="Enter Your E-mail">
+                        <button id="subscr_btn">Subscribe</button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- /.comment -->
     </div>
-    <!--container-->
-
-
+    <!--/container-->
+    <footer>
+        <div class="footer_wrap">
+            <div class="footer_text">
+                <img src="IMG/logo.png" alt="">
+                <br><br>
+                <h5 style="font-weight: 500;">Objectively transition extensive data rather than cross functional
+                    solutions. Monotonectally
+                    syndicate multidisciplinary
+                    materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and
+                    cross-unit partnerships.
+                </h5>
+                <br>
+                <h5 style="font-weight: 500;">
+                    Efficiently plagiarize 24/365 action items and focused infomediaries.
+                    Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+                </h5>
+                <br>
+            </div>
+            <div class="footer_columns">
+                <div class="column">
+                    <h3 class="red">COMPANY</h3>
+                    <br>
+                    <a href="" class="footer_links">Home</a>
+                    <a href="" class="footer_links">Shop</a>
+                    <a href="" class="footer_links">About</a>
+                    <a href="" class="footer_links">How It Works</a>
+                    <a href="" class="footer_links">Contacts</a>
+                </div>
+                <div class="column">
+                    <h3 class="red">INFORMATION</h3>
+                    <br>
+                    <a href="" class="footer_links">Tearms & Condition</a>
+                    <a href="" class="footer_links">Privacy Policy</a>
+                    <a href="" class="footer_links">How to Buy</a>
+                    <a href="" class="footer_links">How to Sell</a>
+                    <a href="" class="footer_links">Promotion</a>
+                </div>
+                <div class="column">
+                    <h3 class="red">SHOP CATEGORY</h3>
+                    <br>
+                    <a href="" class="footer_links">Men</a>
+                    <a href="" class="footer_links">Women</a>
+                    <a href="" class="footer_links">Child</a>
+                    <a href="" class="footer_links">Apparel</a>
+                    <a href="" class="footer_links">Brows All</a>
+                </div>
+            </div>
+        </div>
+        <div class="bellow">
+            <br>
+            <div class="bellow_content">
+                <h5 id="rights">© 2017 Brand All Rights Reserved.</h5>
+                <div class="social_links">
+                    <img src="IMG/contacts_fb.png" alt="">
+                    <img src="IMG/contacts_tw.png" alt="">
+                    <img src="IMG/contacts_in.png" alt="">
+                    <img src="IMG/contacts_pin.png" alt="">
+                    <img src="IMG/contacts_gp.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/footer-->
     <script src="JS/wow.min.js"></script>
     <script src="JS/main.js"></script>
 </body>
