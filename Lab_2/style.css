@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-h1,h2,h3,h4,h5,h6,i,p,a{
+h1,h2,h3,h4,h5,h6,i,p,a,th{
     font-family: 'Lato', sans-serif;
     font-weight: bold;
 }
@@ -17,6 +17,21 @@ li{
 a{
     text-decoration: none;
 }
+tr{
+    text-align: left;
+    height: 180px;
+}
+td{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+th{
+    text-align: center;
+    height: 40px;
+}
+
+
 
 /**/
 .red{
@@ -27,6 +42,9 @@ a{
 }
 .gray{
     color: #9b9b9b;
+}
+.d_gray{
+    color: #757575;
 }
 .light{
     color: #ffffff;
@@ -576,12 +594,6 @@ PRODUCT
     border-left: 4px solid #ff8484;
     padding-left: 15px;
 }
-.list_open{
-
-}
-.list_closed{
-
-}
 .customizer{
     display: flex;
     justify-content: space-between;
@@ -647,4 +659,88 @@ PRODUCT
     margin: auto;
     border-radius: 10px;
     background-color: #aaaaaa;
+}
+
+
+/*SHOPPING-CARD*/
+
+.buy_table{
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.buy_descr{
+    margin: auto;
+    margin-left: 20px;
+}
+.thing_params{
+    text-align: start;
+    color: #636363;
+}
+.transparent_btn{
+    border: none;
+    background-color: #fff;
+}
+.shopping_buttons{
+    margin-top: 60px;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #dcdcdc;
+}
+.shp_button{
+    background-color: #fff;
+    border: 1px solid #dedede;
+    padding: 15px;
+    font-weight: bold;
+}
+.payment_commit{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.pay_commit_block{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.shp_address_elem{
+    margin-bottom: 25px;
+}
+.pay_commit_input{
+    height: 40px;
+    border: 1px solid #dedede;
+    padding-left: 20px;
+}
+.pay_commit_input::-webkit-input-placeholder{
+    text-align: left;
+}
+#buy_confirm{
+    background-color: #fff1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#total_sum{
+    text-align: end;
+    margin-right: 40px;
+}
+#proceed{
+    background-color: #ff8484;
+    border: none;
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+}
+#combine_row{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    justify-content: space-around;
+}
+#final{
+    margin: auto;
+    width: 80%;
 }
